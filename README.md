@@ -120,6 +120,474 @@ NEXT_PUBLIC_API_URL=your_api_url
 - [ ] Additional stable assets
 - [ ] Advanced reporting
 - [ ] Mobile app version
+```
+
+3. Configure environment variables:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your API keys
+```
+
+4. Run development server:
+```bash
+npm run dev
+```
+
+## Configuration
+
+The application requires the following environment variables:
+
+```env
+# Stellar Network
+NEXT_PUBLIC_STELLAR_NETWORK=testnet/public
+NEXT_PUBLIC_HORIZON_URL=https://horizon-testnet.stellar.org
+
+# Mobile Money APIs
+NEXT_PUBLIC_KORA_API_KEY=your_kora_api_key
+NEXT_PUBLIC_MOMO_API_KEY=your_momo_api_key
+
+# Additional Services
+NEXT_PUBLIC_API_URL=your_api_url
+```
+
+## Development Roadmap
+
+- [x] Basic Stellar wallet integration
+- [x] Mobile money payment processing
+- [ ] Multi-provider support
+- [ ] Enhanced security features
+- [ ] Additional stable assets
+- [ ] Advanced reporting
+- [ ] Mobile app version
+```
+
+3. Configure environment variables:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your API keys
+```
+
+4. Run development server:
+```bash
+npm run dev
+```
+
+## Configuration
+
+The application requires the following environment variables:
+
+```env
+# Stellar Network
+NEXT_PUBLIC_STELLAR_NETWORK=testnet/public
+NEXT_PUBLIC_HORIZON_URL=https://horizon-testnet.stellar.org
+
+# Mobile Money APIs
+NEXT_PUBLIC_KORA_API_KEY=your_kora_api_key
+NEXT_PUBLIC_MOMO_API_KEY=your_momo_api_key
+
+# Additional Services
+NEXT_PUBLIC_API_URL=your_api_url
+```
+
+## Development Roadmap
+
+- [x] Basic Stellar wallet integration
+- [x] Mobile money payment processing
+- [ ] Multi-provider support
+- [ ] Enhanced security features
+- [ ] Additional stable assets
+- [ ] Advanced reporting
+- [ ] Mobile app version
+```
+
+3. Configure environment variables:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your API keys
+```
+
+4. Run development server:
+```bash
+npm run dev
+```
+
+## Configuration
+
+The application requires the following environment variables:
+
+```env
+# Stellar Network
+NEXT_PUBLIC_STELLAR_NETWORK=testnet/public
+NEXT_PUBLIC_HORIZON_URL=https://horizon-testnet.stellar.org
+
+# Mobile Money APIs
+NEXT_PUBLIC_KORA_API_KEY=your_kora_api_key
+NEXT_PUBLIC_MOMO_API_KEY=your_momo_api_key
+
+# Additional Services
+NEXT_PUBLIC_API_URL=your_api_url
+```
+
+## Development Roadmap
+
+- [x] Basic Stellar wallet integration
+- [x] Mobile money payment processing
+- [ ] Multi-provider support
+- [ ] Enhanced security features
+- [ ] Additional stable assets
+- [ ] Advanced reporting
+- [ ] Mobile app version
+```
+
+3. Configure environment variables:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your API keys
+```
+
+4. Run development server:
+```bash
+npm run dev
+```
+
+## Configuration
+
+The application requires the following environment variables:
+
+```env
+# Stellar Network
+NEXT_PUBLIC_STELLAR_NETWORK=testnet/public
+NEXT_PUBLIC_HORIZON_URL=https://horizon-testnet.stellar.org
+
+# Mobile Money APIs
+NEXT_PUBLIC_KORA_API_KEY=your_kora_api_key
+NEXT_PUBLIC_MOMO_API_KEY=your_momo_api_key
+
+# Additional Services
+NEXT_PUBLIC_API_URL=your_api_url
+```
+
+## Development Roadmap
+
+- [x] Basic Stellar wallet integration
+- [x] Mobile money payment processing
+- [ ] Multi-provider support
+- [ ] Enhanced security features
+- [ ] Additional stable assets
+- [ ] Advanced reporting
+- [ ] Mobile app version
+```
+
+3. Configure environment variables:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your API keys
+```
+
+4. Run development server:
+```bash
+npm run dev
+```
+
+## Configuration
+
+The application requires the following environment variables:
+
+```env
+# Stellar Network
+NEXT_PUBLIC_STELLAR_NETWORK=testnet/public
+NEXT_PUBLIC_HORIZON_URL=https://horizon-testnet.stellar.org
+
+# Mobile Money APIs
+NEXT_PUBLIC_KORA_API_KEY=your_kora_api_key
+NEXT_PUBLIC_MOMO_API_KEY=your_momo_api_key
+
+# Additional Services
+NEXT_PUBLIC_API_URL=your_api_url
+```
+
+## Development Roadmap
+
+- [x] Basic Stellar wallet integration
+- [x] Mobile money payment processing
+- [ ] Multi-provider support
+- [ ] Enhanced security features
+- [ ] Additional stable assets
+- [ ] Advanced reporting
+- [ ] Mobile app version
+```
+
+3. Configure environment variables:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your API keys
+```
+
+4. Run development server:
+```bash
+npm run dev
+```
+
+## Configuration
+
+The application requires the following environment variables:
+
+```env
+# Stellar Network
+NEXT_PUBLIC_STELLAR_NETWORK=testnet/public
+NEXT_PUBLIC_HORIZON_URL=https://horizon-testnet.stellar.org
+
+# Mobile Money APIs
+NEXT_PUBLIC_KORA_API_KEY=your_kora_api_key
+NEXT_PUBLIC_MOMO_API_KEY=your_momo_api_key
+
+# Additional Services
+NEXT_PUBLIC_API_URL=your_api_url
+```
+
+## Development Roadmap
+
+- [x] Basic Stellar wallet integration
+- [x] Mobile money payment processing
+- [ ] Multi-provider support
+- [ ] Enhanced security features
+- [ ] Additional stable assets
+- [ ] Advanced reporting
+- [ ] Mobile app version
+```
+
+3. Configure environment variables:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your API keys
+```
+
+4. Run development server:
+```bash
+npm run dev
+```
+
+## Configuration
+
+The application requires the following environment variables:
+
+```env
+# Stellar Network
+NEXT_PUBLIC_STELLAR_NETWORK=testnet/public
+NEXT_PUBLIC_HORIZON_URL=https://horizon-testnet.stellar.org
+
+# Mobile Money APIs
+NEXT_PUBLIC_KORA_API_KEY=your_kora_api_key
+NEXT_PUBLIC_MOMO_API_KEY=your_momo_api_key
+
+# Additional Services
+NEXT_PUBLIC_API_URL=your_api_url
+```
+
+## Development Roadmap
+
+- [x] Basic Stellar wallet integration
+- [x] Mobile money payment processing
+- [ ] Multi-provider support
+- [ ] Enhanced security features
+- [ ] Additional stable assets
+- [ ] Advanced reporting
+- [ ] Mobile app version
+```
+
+3. Configure environment variables:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your API keys
+```
+
+4. Run development server:
+```bash
+npm run dev
+```
+
+## Configuration
+
+The application requires the following environment variables:
+
+```env
+# Stellar Network
+NEXT_PUBLIC_STELLAR_NETWORK=testnet/public
+NEXT_PUBLIC_HORIZON_URL=https://horizon-testnet.stellar.org
+
+# Mobile Money APIs
+NEXT_PUBLIC_KORA_API_KEY=your_kora_api_key
+NEXT_PUBLIC_MOMO_API_KEY=your_momo_api_key
+
+# Additional Services
+NEXT_PUBLIC_API_URL=your_api_url
+```
+
+## Development Roadmap
+
+- [x] Basic Stellar wallet integration
+- [x] Mobile money payment processing
+- [ ] Multi-provider support
+- [ ] Enhanced security features
+- [ ] Additional stable assets
+- [ ] Advanced reporting
+- [ ] Mobile app version
+```
+
+3. Configure environment variables:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your API keys
+```
+
+4. Run development server:
+```bash
+npm run dev
+```
+
+## Configuration
+
+The application requires the following environment variables:
+
+```env
+# Stellar Network
+NEXT_PUBLIC_STELLAR_NETWORK=testnet/public
+NEXT_PUBLIC_HORIZON_URL=https://horizon-testnet.stellar.org
+
+# Mobile Money APIs
+NEXT_PUBLIC_KORA_API_KEY=your_kora_api_key
+NEXT_PUBLIC_MOMO_API_KEY=your_momo_api_key
+
+# Additional Services
+NEXT_PUBLIC_API_URL=your_api_url
+```
+
+## Development Roadmap
+
+- [x] Basic Stellar wallet integration
+- [x] Mobile money payment processing
+- [ ] Multi-provider support
+- [ ] Enhanced security features
+- [ ] Additional stable assets
+- [ ] Advanced reporting
+- [ ] Mobile app version
+```
+
+3. Configure environment variables:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your API keys
+```
+
+4. Run development server:
+```bash
+npm run dev
+```
+
+## Configuration
+
+The application requires the following environment variables:
+
+```env
+# Stellar Network
+NEXT_PUBLIC_STELLAR_NETWORK=testnet/public
+NEXT_PUBLIC_HORIZON_URL=https://horizon-testnet.stellar.org
+
+# Mobile Money APIs
+NEXT_PUBLIC_KORA_API_KEY=your_kora_api_key
+NEXT_PUBLIC_MOMO_API_KEY=your_momo_api_key
+
+# Additional Services
+NEXT_PUBLIC_API_URL=your_api_url
+```
+
+## Development Roadmap
+
+- [x] Basic Stellar wallet integration
+- [x] Mobile money payment processing
+- [ ] Multi-provider support
+- [ ] Enhanced security features
+- [ ] Additional stable assets
+- [ ] Advanced reporting
+- [ ] Mobile app version
+```
+
+3. Configure environment variables:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your API keys
+```
+
+4. Run development server:
+```bash
+npm run dev
+```
+
+## Configuration
+
+The application requires the following environment variables:
+
+```env
+# Stellar Network
+NEXT_PUBLIC_STELLAR_NETWORK=testnet/public
+NEXT_PUBLIC_HORIZON_URL=https://horizon-testnet.stellar.org
+
+# Mobile Money APIs
+NEXT_PUBLIC_KORA_API_KEY=your_kora_api_key
+NEXT_PUBLIC_MOMO_API_KEY=your_momo_api_key
+
+# Additional Services
+NEXT_PUBLIC_API_URL=your_api_url
+```
+
+## Development Roadmap
+
+- [x] Basic Stellar wallet integration
+- [x] Mobile money payment processing
+- [ ] Multi-provider support
+- [ ] Enhanced security features
+- [ ] Additional stable assets
+- [ ] Advanced reporting
+- [ ] Mobile app version
+```
+
+3. Configure environment variables:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your API keys
+```
+
+4. Run development server:
+```bash
+npm run dev
+```
+
+## Configuration
+
+The application requires the following environment variables:
+
+```env
+# Stellar Network
+NEXT_PUBLIC_STELLAR_NETWORK=testnet/public
+NEXT_PUBLIC_HORIZON_URL=https://horizon-testnet.stellar.org
+
+# Mobile Money APIs
+NEXT_PUBLIC_KORA_API_KEY=your_kora_api_key
+NEXT_PUBLIC_MOMO_API_KEY=your_momo_api_key
+
+# Additional Services
+NEXT_PUBLIC_API_URL=your_api_url
+```
+
+## Development Roadmap
+
+- [x] Basic Stellar wallet integration
+- [x] Mobile money payment processing
+- [ ] Multi-provider support
+- [ ] Enhanced security features
+- [ ] Additional stable assets
+- [ ] Advanced reporting
+- [ ] Mobile app version
 
 ## Contributing
 
