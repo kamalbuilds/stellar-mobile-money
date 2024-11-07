@@ -1,9 +1,9 @@
 // src/lib/stellar.ts
-import StellarSdk from '@stellar/stellar-sdk';
+import * as StellarSdk from '@stellar/stellar-sdk'
 
 // Configure Stellar SDK (using testnet for development)
-const server = new StellarSdk.Server('https://horizon-testnet.stellar.org');
-StellarSdk.Network.useTestNetwork();
+const server = new StellarSdk.Horizon.Server('https://horizon-testnet.stellar.org');
+
 
 export class StellarService {
   static async createAccount() {
@@ -66,6 +66,49 @@ export class StellarService {
       return await server.submitTransaction(transaction);
     } catch (error) {
       console.error('Error sending payment:', error);
+      throw error;
+    }
+  }
+
+  static async getAccountTransactions(publicKey: string) {
+    try {
+      const transactions = await server
+        .transactions()
+        .forAccount(publicKey)
+        .order('desc')
+        .limit(10)
+        .call();
+
+      return Promise.all(
+        transactions.records.map(async (tx) => {
+          const operations = await tx.operations();
+          return operations.records.map((op) => ({
+            id: tx.id,
+            type: op.type,
+            amount: op.amount,
+            asset: op.asset_type === 'native' ? 'XLM' : op.asset_code,
+            timestamp: tx.created_at,
+            from: op.from || tx.source_account,
+            to: op.to
+          }));
+        })
+      );
+    } catch (error) {
+      console.error('Error fetching transactions:', error);
+      throw error;
+    }
+  }
+
+  static async getSupportedAssets() {
+    try {
+      const assets = await server.assets().call();
+      return assets.records.map((asset) => ({
+        code: asset.asset_code || 'XLM',
+        issuer: asset.asset_issuer,
+        type: asset.asset_type
+      }));
+    } catch (error) {
+      console.error('Error fetching assets:', error);
       throw error;
     }
   }
