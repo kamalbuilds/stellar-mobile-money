@@ -41,7 +41,7 @@ export default function MobileMoneyForm() {
           type="number"
           value={formData.amount}
           onChange={(e) => setFormData({ ...formData, amount: e.target.value })}
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm"
+          className="text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm"
           required
         />
       </div>
@@ -52,7 +52,7 @@ export default function MobileMoneyForm() {
           type="tel"
           value={formData.phoneNumber}
           onChange={(e) => setFormData({ ...formData, phoneNumber: e.target.value })}
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm"
+          className="text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm"
           required
         />
       </div>
@@ -63,7 +63,7 @@ export default function MobileMoneyForm() {
           type="text"
           value={formData.customerName}
           onChange={(e) => setFormData({ ...formData, customerName: e.target.value })}
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm"
+          className="text-black mt-1 block w-full rounded-md border-gray-300 shadow-sm"
           required
         />
       </div>
@@ -74,7 +74,7 @@ export default function MobileMoneyForm() {
           type="email"
           value={formData.customerEmail}
           onChange={(e) => setFormData({ ...formData, customerEmail: e.target.value })}
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm"
+          className="text-blue-500 mt-1 block w-full rounded-md border-gray-300 shadow-sm"
           required
         />
       </div>
